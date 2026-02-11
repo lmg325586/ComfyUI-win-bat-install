@@ -22,23 +22,6 @@
 
 \---
 
-## 📂 目录结构
-
-部署完成后自动生成以下结构：
-
-F:\\ComfyUI
-├── comfyui-venv\\ ← Python 3.12 虚拟环境（含 ROCm PyTorch）
-├── ComfyUI\\ ← 官方仓库（git clone）
-│ ├── main.py ← ComfyUI 入口
-│ ├── models\\ ← 模型目录（需手动下载）
-│ │ ├── checkpoints\\ ← SD 模型（.safetensors）
-│ │ └── ...
-│ └── ...
-├── deploy\_comfyui.bat ← 【首次运行】一键部署脚本
-└── start\_comfyui.bat ← 【日常使用】一键启动脚本
-
-\---
-
 ## 🚀 使用指南
 
 ### 步骤 1：首次部署（仅需 1 次）
