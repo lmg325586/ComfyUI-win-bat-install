@@ -78,7 +78,6 @@
 
 编辑 `start\\\_comfyui.bat` 中的启动命令：
 
-```batch
 :: 自定义端口
 start "ComfyUI Backend" /min cmd /c "python main.py --port 8888"
 
